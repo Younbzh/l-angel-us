@@ -10,6 +10,10 @@ function Contact() {
         description="Le formulaire illustratif montre comment une mise en page douce et élégante rend l'étape de contact plus accessible. 
         Le visiteur comprend que tout est simple, fluide et discret."
       >
+        <p className="text-xs text-neutral-400 mb-4">
+          Ce formulaire est présenté comme il pourrait apparaître sur le site final de {siteConfig.clubName}.
+        </p>
+
         <div className="grid gap-6 md:grid-cols-2">
 
           <div className="glass p-7 rose-halo">
@@ -32,18 +36,13 @@ function Contact() {
               </div>
 
               <button className="btn-primary w-full">Envoyer (maquette)</button>
-
-              <p className="text-[11px] text-neutral-400 leading-relaxed">
-                Ce formulaire est illustratif : dans une version finale, chaque message serait réellement envoyé.
-              </p>
             </div>
           </div>
 
           <div className="glass p-7 gold-halo">
             <h3 className="text-base font-semibold text-white">Informations utiles</h3>
             <p className="mt-2 text-sm text-neutral-300 leading-relaxed">
-              Cette zone sert à rassurer et orienter : adresse, accès, horaires, spécificités. 
-              Elle montre comment un design élégant permet de structurer clairement les informations essentielles.
+              Voici comment une page de contact moderne peut présenter les informations essentielles, tout en restant douce, élégante et rassurante.
             </p>
 
             <div className="mt-5 space-y-2 text-sm text-neutral-300">
@@ -54,7 +53,7 @@ function Contact() {
             </div>
 
             <div className="mt-6 border-t border-white/10 pt-4 text-[11px] text-neutral-400">
-              Un rappel subtil sur la confidentialité renforce la sensation de sérieux et de discrétion.
+              Une mention discrète pour rappeler la confidentialité propre à {siteConfig.clubName}.
             </div>
           </div>
 
